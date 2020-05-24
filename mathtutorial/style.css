@@ -1,0 +1,184 @@
+body{
+  font: Arial, Helvetica, sans-serif  ;
+}
+
+
+.container{
+    width: 1050px;
+    
+    margin: 0 auto;
+
+}
+
+h1 a{
+     font-size: 50xp;
+     font-weight: 100;
+     color: purple;
+     text-decoration: none;
+}
+
+.header{
+    height: 100px;
+    padding: 10px 0;
+}
+
+#searchbox{
+    float: right;
+    background: linear-gradient(#E4F2B9, #B7E953);
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0 20px;
+    margin-top: 20px;
+}
+
+#brand{
+    float: left;
+}
+
+.text{
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px ;
+    color: orange;
+    background: white url('img/srclogo.png') right center no-repeat;
+    border: 1px solid seagreen;
+}
+
+.submit{
+    float:right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background: orchid;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+.clear{
+    clear: both;
+}
+
+ul{
+    list-style: none;
+}
+
+.menu ul li{
+    float: left;
+    padding: 0 30px;
+    height: 20px;
+    border-right: 1px solid purple;
+}
+
+.menu ul li:last-child{
+    border-right: none;
+}
+
+.menu{
+    height: 70px;
+    background: linear-gradient(#F8F594, #D5D533);
+    padding: 7px 0;
+}
+.menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: purple;
+    line-height: 30px;
+    transition: font-size 0.3s ease;
+}
+
+.menu ul li a:hover , .menu ul a.active {
+    font-size: 20px;
+    font-weight: bold;
+    color: rebeccapurple;
+
+}
+
+.intro{
+    background: linear-gradient(#E5F2BB, #B7E052);
+    padding: 30px;
+    margin: 10px 0;
+
+}
+
+.intro h3{
+    font-size: 45px;
+    color: seagreen;
+    font-weight: normal;
+}
+
+.intro p{
+    font-size: 25px;
+    color: seagreen;
+    text-align: justify;
+}
+
+.sdbar{
+    height: 500px;
+    width: 450px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.sdbar h3{
+    color: purple;
+    font-size: 30px;
+
+}
+
+.sdbar ul li a{
+    text-decoration: none;
+    font-size: 20;
+    color: rebeccapurple;
+
+
+}
+
+.sdbar ul li a:hover , .sdbar ul li a.active{
+    text-decoration: none;
+    color: rebeccapurple;
+    font-size: 27px;
+    font-weight: bold;
+    transition: font-size 0.3s ease ;
+
+
+}
+
+.lbar{
+    float: left;
+}
+
+.rbar{
+    float: right;
+
+}
+
+.lbar ul li{
+    padding-bottom: 6px;
+    list-style-image: url('img/arrow.png');
+    padding-left: 10px;
+
+
+}
+
+.lbar ul{
+    padding-top: 8px;
+}
+
+.rbar ul li{
+    padding-bottom: 6px;
+    list-style-image: url('img/tick.png');
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size:25px ;
+}
+
+.footer{
+    height: 60px;
+    background: linear-gradient(#F6F390, #D5D533);
+    padding: 10px 300px;
+    margin-top: 15px ;
+}
